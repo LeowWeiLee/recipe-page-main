@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-600 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.attribution {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 50%;
+}
+
+img {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  text-align: left;
+  border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+
+.sub-container {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+
+h1 {
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: square;
+  color: hsl(14, 45%, 36%);
+}
+li {
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+li::marker {
+  color: #a15846;
+}
+
+.pink-section {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: large;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+}
+span {
+  font-weight: bold;
+}
+#color-brown {
+  color: hsl(14, 45%, 36%);
+}
+#remove-border {
+  border-bottom: 1px solid #ffffff;
+}
+
+@media (max-width: 800px) {
+  .container {
+    max-width: 70%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 99%;
+    padding: 1px;
+  }
+}
